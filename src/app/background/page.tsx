@@ -24,8 +24,8 @@ const sections = [
 export default function BackgroundPage() {
   return (
     <main className="min-h-screen w-full bg-gradient-to-br from-[#101010] via-[#181818] to-[#232323] px-4 py-16">
-      <div className="max-w-4xl mx-auto mb-5">
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 inline-block pb-2">
+      <div className="max-w-4xl mx-auto mb-5 text-center md:text-start">
+        <h2 className="text-4xl md:text-5xl font-extrabold inline-block pb-2">
           My Background
         </h2>
       </div>

@@ -17,16 +17,21 @@ export default function Nav() {
 
   return (
     <>
-      {/* Hamburger for mobile */}
-      {!open && (
-        <button
-          className="fixed top-4 left-4 z-50 md:hidden text-lime-300 text-3xl bg-[#181818] rounded p-1 shadow border border-lime-400/30"
-          aria-label="Open navigation"
-          onClick={() => setOpen(true)}
-        >
-          ☰
-        </button>
-      )}
+      {/* Top bar for mobile: logo + hamburger */}
+      <div className="fixed top-0 left-0 w-full h-14 bg-[#181818] flex items-center justify-between px-4 z-50 md:hidden border-b border-lime-400/10">
+        <span className="font-bold text-xl drop-shadow">
+          Max Berglund
+        </span>
+        {!open && (
+          <button
+            className="text-lime-300 text-3xl bg-[#181818] rounded p-1 shadow"
+            aria-label="Open navigation"
+            onClick={() => setOpen(true)}
+          >
+            ☰
+          </button>
+        )}
+      </div>
 
       {/* Sidebar overlay for mobile */}
       <div
@@ -47,7 +52,7 @@ export default function Nav() {
         aria-label="Main navigation"
       >
         <div className="flex items-center justify-between h-14 px-4 border-b border-lime-400/10">
-          <span className="font-bold text-xl text-lime-400 drop-shadow">
+          <span className="font-bold text-xl drop-shadow">
             Max Berglund
           </span>
           <button
@@ -105,7 +110,7 @@ export default function Nav() {
         aria-label="Main navigation"
       >
         <div className="flex items-center h-16 px-4 border-b border-lime-400/10">
-          <span className="font-bold text-2xl text-lime-400 drop-shadow">
+          <span className="font-bold text-2xl drop-shadow w-full text-center">
             Max Berglund
           </span>
         </div>
