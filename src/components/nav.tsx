@@ -109,7 +109,7 @@ export default function Nav() {
             Max Berglund
           </span>
         </div>
-        <div className="flex-1 flex flex-col items-center gap-1 mt-6">
+        <div className="flex-1 flex flex-col items-center gap-1">
           <Link href="/" className={linkClass("/")}>
             Home
           </Link>
