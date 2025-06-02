@@ -35,8 +35,8 @@ export default function Home() {
           <p className="text-gray-100 text-base leading-relaxed mb-4">
             Feel free to contact me or follow my social media to stay updated on
             my projects and endeavors. I am always open to connecting with
-            like-minded professionals and potential collaborators. Let's connect
-            and create something amazing together!
+            like-minded professionals and potential collaborators. Let&apos;s
+            connect and create something amazing together!
           </p>
           <div className="flex gap-6 justify-center mt-2">
             <a
