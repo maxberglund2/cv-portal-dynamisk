@@ -4,7 +4,13 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 const GITHUB_USERNAME = "maxberglund2";
-const HIGHLIGHTED_REPOS = ["Critter", "OtakuStyle", "greenTech", "KyotoInc"];
+const HIGHLIGHTED_REPOS = [
+  "Critter",
+  "OtakuStyle",
+  "greenTech",
+  "KyotoInc",
+  "cv-portal-dynamisk",
+];
 
 type Repo = {
   id: number;

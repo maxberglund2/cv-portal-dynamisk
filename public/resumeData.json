@@ -1,0 +1,67 @@
+{
+  "profile": {
+    "name": "Max Berglund",
+    "dob": "2004.03.15",
+    "avatar": "/defaultAvatar.jpg"
+  },
+  "languages": [
+    { "name": "Swedish", "level": "Native" },
+    { "name": "English", "level": "Fluent" }
+  ],
+  "softSkills": [
+    "Responsibility",
+    "Communication",
+    "Goal-oriented",
+    "Efficiency",
+    "Teamwork"
+  ],
+  "techSkills": [
+    ["Python", "Javascript", "C#"],
+    ["HTML/CSS", "React.js", "Typescript"]
+  ],
+  "personalStatement": "My curiosity for technology and problem-solving has driven me to explore various fields, from hardware and software to teamwork and project management. I enjoy learning new things and adapting to different work environments, which helps me develop both technical and communication skills. Regardless of the setting, I appreciate the opportunity to take on challenges, solve problems, and work in a dynamic environment where I can contribute and grow.",
+  "careerGoals": "I value experience and see every work opportunity as a chance to develop both professionally and personally. I am open to various roles where I can contribute with my engagement, adaptability, and interest in technology and effective collaboration. My ambition is to broaden my skills and gather experiences that will shape my future career.",
+  "workExperience": [
+    {
+      "year": "2024",
+      "title": "Internship as Mobile App Developer at 2witness",
+      "description": "Actively engaged in a team of interns developing a mobile application. Initially focused on backend development, later expanded to frontend tasks. Improved programming, communication, and teamwork skills through hands-on experience."
+    },
+    {
+      "year": "2024",
+      "title": "Internship at National Institute of Technology, Ariake College (Fukuoka, Japan)",
+      "description": "Completed a two-week internship as part of a dynamic exchange program. Worked with image recognition using Python, gaining insights into cutting-edge technologies and international collaboration."
+    },
+    {
+      "year": "2020",
+      "title": "Sanitation Worker",
+      "description": "Strengthened work ethic and proactive approach to tasks, contributing to a cleaner community environment."
+    },
+    {
+      "year": "2020",
+      "title": "High School Teaching Assistant",
+      "description": "Managed administrative duties, document management, and communication handling to support academic needs."
+    }
+  ],
+  "education": [
+    {
+      "period": "2024 - Present | Stockholm",
+      "degree": "Higher Vocational Education Diploma",
+      "school": "Chas Academy (Fullstack .NET)",
+      "description": "Deepening knowledge in .NET development with a focus on both frontend and backend. Curriculum covers JavaScript, frameworks, databases, and C#/.NET. Gaining business insights and teamwork experience through practical projects."
+    },
+    {
+      "period": "2023 - 2024 | Stockholm",
+      "degree": "High school engineering degree",
+      "school": "NTI Gymnasiet Södertörn (TE4) - Highschool Engineering Program",
+      "description": "Specialized in practical programming, web development, and work methods such as Agile and Waterfall. Gained experience with the MERN stack and improved coding and teamwork skills through projects."
+    },
+    {
+      "period": "2020 - 2023 | Stockholm",
+      "degree": "High School Diploma",
+      "school": "NTI Gymnasiet Södertörn (Information and Media Technology Program)",
+      "description": "Specialized in information and media technology, exploring programming, web development, design, 3D printing, and hardware management."
+    }
+  ],
+  "aboutMe": "In my free time, I enjoy training, video games, and TV series. I have a strong passion for technology and problem-solving and thrive on developing my skills through creating and improving. My internship in Fukuoka, Japan, sparked my interest in international work and cultural exchange. Now, I am looking for opportunities to gain practical experience, build networks, and explore my strengths and interests. I am motivated, eager to learn, and focused on continuous professional and personal growth."
+}

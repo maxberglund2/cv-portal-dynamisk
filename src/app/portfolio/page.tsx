@@ -3,7 +3,7 @@ import GetGithubRepo from "@/components/portfolio/getGithubRepo";
 
 const PortfolioPage = () => {
   return (
-    <main className="min-h-screen w-full bg-gradient-to-br from-[#101010] via-[#181818] to-[#232323] px-4 py-16">
+    <div className="min-h-screen w-full px-4 py-16">
       <div className="max-w-4xl mx-auto mb-10 text-center md:text-left">
         <h2 className="text-4xl md:text-5xl font-extrabold pb-2 text-lime-400 drop-shadow-lg">
           My Portfolio
@@ -14,7 +14,7 @@ const PortfolioPage = () => {
         </p>
       </div>
       <GetGithubRepo />
-    </main>
+    </div>
   );
 };
 

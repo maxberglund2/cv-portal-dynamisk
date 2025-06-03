@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="min-h-screen w-full bg-gradient-to-br from-[#101010] via-[#181818] to-[#232323] px-4 py-16">
+    <main className="min-h-screen w-full px-4 py-16">
       <div className="max-w-3xl mx-auto mb-10">
         <h1 className="text-center md:text-justify text-4xl md:text-5xl font-extrabold pb-2 text-lime-300 drop-shadow">
           Welcome To The Website

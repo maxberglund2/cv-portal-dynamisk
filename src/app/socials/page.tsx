@@ -5,7 +5,7 @@ import EmailIcon from "@mui/icons-material/Email";
 
 export default function SocialsPage() {
   return (
-    <main className="min-h-screen w-full bg-gradient-to-br from-[#101010] via-[#181818] to-[#232323] px-4 py-16 flex flex-col items-center">
+    <div className="min-h-screen w-full px-4 py-16 flex flex-col items-center">
       <h1 className="text-4xl md:text-5xl font-extrabold pb-2 text-lime-300 drop-shadow text-center">
         Connect with Me
       </h1>
@@ -87,6 +87,6 @@ export default function SocialsPage() {
           </span>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
