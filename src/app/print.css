@@ -1,0 +1,87 @@
+@media print {
+
+    /* Make all backgrounds white and text black for print */
+    .bg-\[\#181f1a\]\/80,
+    .bg-\[\#232823\]\/80,
+    .bg-\[\#181818\]\/90,
+    .bg-gradient-to-b,
+    .bg-\[\#1a2b1e\]\/80,
+    .bg-lime-900\/40,
+    .bg-lime-900\/30,
+    .bg-lime-900\/20 {
+        background: #fff !important;
+    }
+
+    .text-lime-200,
+    .text-lime-300,
+    .text-lime-400,
+    .text-gray-200,
+    .text-gray-300 {
+        color: #111 !important;
+    }
+
+    /* Remove box shadows and borders for print clarity */
+    .shadow,
+    .shadow-lg,
+    .shadow-2xl {
+        box-shadow: none !important;
+    }
+
+    .border,
+    .border-lime-400\/10,
+    .border-lime-400\/20,
+    .border-lime-400\/30 {
+        border-color: #bbb !important;
+    }
+
+    /* Remove rounded corners for a cleaner print look */
+    .rounded,
+    .rounded-xl,
+    .rounded-3xl,
+    .rounded-full {
+        border-radius: 0 !important;
+    }
+
+    /* Hide images if you don't want them on print */
+    img {
+        display: none !important;
+    }
+
+    /* Adjust padding/margins for print */
+    .p-5,
+    .p-8 {
+        padding: 0.5rem !important;
+    }
+
+    .mb-2,
+    .mb-4,
+    .mb-1,
+    .mb-0,
+    .mt-auto,
+    .mb-4 {
+        margin-bottom: 0.5rem !important;
+        margin-top: 0 !important;
+    }
+
+    .gap-6,
+    .gap-4,
+    .gap-2,
+    .gap-1,
+    .flex-col {
+        gap: 0.5rem !important;
+    }
+
+    /* Prevent page breaks inside experience/education blocks */
+    .rounded-xl,
+    .rounded-3xl {
+        page-break-inside: avoid !important;
+    }
+
+    /* Hide navigation on print */
+    .fixed.top-0.left-0.w-full.h-14,
+    .fixed.inset-0.bg-black,
+    .fixed.top-0.left-0.h-full,
+    .hidden.md\:fixed.md\:top-0.md\:left-0.md\:h-full.md\:w-56.md\:bg-\[\#181818\].md\:border-r.md\:border-lime-400\/20.md\:flex.md\:flex-col {
+        display: none !important;
+    }
+}

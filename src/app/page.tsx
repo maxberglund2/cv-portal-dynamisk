@@ -22,7 +22,7 @@ export default function Home() {
       </div>
 
       <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
-        <section className="bg-[#1a2b1e]/70 rounded-2xl shadow-2xl p-8 border border-lime-400/10 flex flex-col justify-between">
+        <section className="bg-[#1a2b1e]/70 rounded-2xl shadow-2xl p-8 border border-lime-400/10 flex flex-col">
           <h2 className="text-2xl font-bold text-lime-300 mb-2">About Me</h2>
           <p className="text-gray-100 text-base leading-relaxed">
             I am a passionate web developer with a keen interest in creating
@@ -30,7 +30,7 @@ export default function Home() {
             development, I enjoy bringing ideas to life through code and design.
           </p>
         </section>
-        <section className="bg-[#1a2b1e]/70 rounded-2xl shadow-2xl p-8 border border-lime-400/10 flex flex-col justify-between">
+        <section className="bg-[#1a2b1e]/70 rounded-2xl shadow-2xl p-8 border border-lime-400/10 flex flex-col">
           <h2 className="text-2xl font-bold text-lime-300 mb-2">My Socials</h2>
           <p className="text-gray-100 text-base leading-relaxed mb-4">
             Feel free to contact me or follow my social media to stay updated on

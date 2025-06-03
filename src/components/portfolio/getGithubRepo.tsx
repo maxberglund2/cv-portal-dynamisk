@@ -48,7 +48,7 @@ const GetGithubRepo: React.FC = () => {
         rel="noopener noreferrer"
         className="group bg-gradient-to-tr from-[#1a2b1e]/80 to-[#232323]/80 rounded-2xl shadow-xl p-6 flex flex-col gap-2 border border-lime-400/10 hover:scale-[1.025] transition-transform"
       >
-        <div className="flex items-center gap-2">
+        <div className="flex items-center">
           <span className="text-lime-400 text-2xl">
             <i className="fa-brands fa-github" />
           </span>
@@ -70,8 +70,11 @@ const GetGithubRepo: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="text-center text-gray-400 py-10">
-        Loading GitHub projects...
+      <div className="flex flex-col items-center justify-center py-20">
+        <span className="inline-block w-12 h-12 border-4 border-lime-400 border-t-transparent rounded-full animate-spin mb-4"></span>
+        <span className="text-lime-300 text-lg">
+          Loading GitHub projects...
+        </span>
       </div>
     );
   }
