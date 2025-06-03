@@ -1,8 +1,7 @@
 {
   "profile": {
     "name": "Max Berglund",
-    "dob": "2004.03.15",
-    "avatar": "/defaultAvatar.jpg"
+    "dob": "2004.03.15"
   },
   "languages": [
     { "name": "Swedish", "level": "Native" },

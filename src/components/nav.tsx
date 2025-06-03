@@ -3,13 +3,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 
-
-const logoColorChange = () => {
-  // if on home M shoud be lime, if socials "a" should be lime, if resume "x" should be lime, if portfolio then "Berg" should be lime, if background then "lund" should be lime
-  const pathname = usePathname();
-  
-}
-
 export default function Nav() {
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
